@@ -4,7 +4,9 @@
     <head>
 
             <title>Harsh Agrawal</title>
-
+        <!-- ANIMATION -->
+        <link href="style1.css" rel="stylesheet">
+        <script src="java.js"></script>
         <!-- Jquery and Bootstrap -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -65,9 +67,8 @@
             hr{
                 
                 width: 600px;
-                border-top: 2px solid #FFFFFF;
-                border-bottom: 1px solid rgba(0,0,0,0.2) 
-
+                border-top: 2px solid #C5C6C7;
+                border-bottom: 1px solid #1F2833;
             }
             .hr1{
                 
@@ -76,29 +77,74 @@
                 border-bottom: 1px solid rgba(0,0,0,0.2) 
 
             }
+            h1{
+                
+                color: #66FCF1;
+                
+            }
             
             .linkFont{
                 
                 font-size: 20px;
                 
             }
+            .cyanFont{
+                
+                color:#66FCF1;
+                
+            }
+            .darkcyanFont{
+                
+                color:#45A29E;
+                
+            }
+            .greyFont{
+                
+                color:#C5C6C7;
+                
+            }
+            .darkgreyFont{
+                
+                color: #0B0C10;
+                font-size: 50px;
+            }
+            .bgdarkgrey{
+                
+                background-color: #0B0C10;
+                
+            }
+            .bggrey{
+                
+                background-color: #F8F9FA ;
+                
+            }
+            .card{
+                
+                background-color: #F8F9FA  ;
+                
+            }
+            h3{
+                
+                color: #0B0C10;                  
+                
+            }
             
         </style>
     
     </head>
-    <body class="bgblack">
+    <body class="bgdarkgrey">
         <!-- Navbar section -->
-        <nav class="navbar bg-light sticky-top navbar-expand-lg navbar-light">            
+        <nav class="bgdarkgrey navbar bg-light sticky-top navbar-expand-lg navbar-light">            
           <div class="container">
             <div class="navbar-brand coolFont">
-            <a href="#"><h4>Harsh Agrawal</h4></a>
+            <a href="index.html" class="darkcyanFont"><h4>Harsh Agrawal</h4></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav greyFont">
             
                 <li><a href="#About" class="nav-link">About</a></li>
                 <li><a href="#Interests" class="nav-link">Interests</a></li>
@@ -112,7 +158,7 @@
         </nav> 
         <!-- About Me section -->
         <div class="container">
-            <div class="jumbotron infoFont bgblack whiteFont" id="About">
+            <div class="jumbotron infoFont bgdarkgrey whiteFont" id="About">
                 <h1 class="coolFont" >About me!</h1>
                 <hr>
                 <div class="container row">
@@ -121,7 +167,7 @@
                     <img src="images/aboutImg.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
                     
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 greyFont">
                         <p>
                             I am a problem solver, who aims to make life easy, safe and healthy using automation, machine learning and several other ways.In easy words, I solve problems that you didn't know you had, in ways that many minds don't understand.
                         </p>
@@ -142,9 +188,11 @@
             
             
         <!-- Interests section -->            
+        <div class="bgblack">
+        <br><br><br>
         <div class="container">
             <h2 id="Interests"></h2>
-            <h1 class="coolFont whiteFont" id="Interests">Core Interests</h1>
+            <h1 class="coolFont" id="Interests">Core Interests</h1>
             <hr>
             <div class="container">
                 <div class="row">
@@ -154,27 +202,27 @@
                             <img src="icons/robotics.svg" class="img-fluid col-lg-3 col-md-2 col-sm-2 col-2" alt="Responsive image">
                             <h3 class="col-lg-9 col-md-10 col-sm-10 col-10">Robotics
                             
-                            <small class="text-muted"><br><h4>Automation</h4></small>
+                            <small class="darkcyanFont"><br><h4>Automation</h4></small>
                         </h3>
                         </div>
                         Robotics is all about improving proficiency and reliability of tasks using sophisticated technology eliminating all the possible human error. 
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 card card-body bgwhite">
-                        <div class="row">
+                        <div class="row darkgreyFont">
                             <img src="icons/vision.svg" class="img-fluid col-lg-3 col-md-2 col-sm-2 col-2" alt="Responsive image">
                             <h3 class="col-lg-9 col-md-10 col-sm-10 col-10">Machine Vision
                             
-                            <small class="text-muted"><br><h4>Image processing</h4></small>
+                            <small class="darkcyanFont"><br><h4>Image processing</h4></small>
                         </h3>
                         </div>
                         Systems are now able to see, hear and learn. Machine learning will be the last invention that humanity will ever need to make.
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 card card-body bgwhite">
-                        <div class="row">
+                        <div class="row darkgreyFont">
                             <img src="icons/MLearning.svg" class="img-fluid col-lg-3 col-md-2 col-sm-2 col-2" alt="Responsive image">
                             <h3 class="col-lg-9 col-md-10 col-sm-10 col-10">Machine Learning
                             
-                            <small class="text-muted"><br><h4>Artificial Intelligence</h4></small>
+                            <small class="darkcyanFont"><br><h4>Artificial Intelligence</h4></small>
                         </h3>
                         </div>
                         Artificial intelligence and its offshoot, machine learning will be the foundational tool for creating social and business success.
@@ -186,46 +234,47 @@
                 <div class="card-deck">
                 <div class="row">
                     <div class="col-lg-4 card card-body bgwhite">
-                        <div class="row">
+                        <div class="row darkgreyFont">
                             <img src="icons/dataAnalytics.svg" class="img-fluid col-lg-3 col-md-2 col-sm-2 col-2" alt="Responsive image">
                             <h3 class="col-lg-9 col-md-10 col-sm-10 col-10">Big Data
                             
-                            <small class="text-muted"><br><h4>Cloud</h4></small>
+                            <small class="darkcyanFont"><br><h4>Cloud</h4></small>
                         </h3>
                         </div>
                         Websites, Mobile Applications, Social Media, are a significant source of data.Proper utilization of data to generate or maintain business comes under big data analytics.
                     </div>
                     <div class="col-lg-4 card card-body bgwhite">
-                        <div class="row">
+                        <div class="row darkgreyFont">
                             <img src="icons/android.svg" class="img-fluid col-lg-3 col-md-2 col-sm-2 col-2" alt="Responsive image">
                             <h3 class="col-lg-9 col-md-10 col-sm-10 col-10">Android Dev
                             
-                            <small class="text-muted"><br><h4>Full Stack</h4></small>
+                            <small class="darkcyanFont"><br><h4>Full Stack</h4></small>
                         </h3>
                         </div>
                         Digital presence is not limited to websites or social media.Your mobile phone application is equally important. The scope of android devices has not been explored fully.
                     </div>
                     <div class="col-lg-4 card card-body bgwhite">
-                        <div class="row">
+                        <div class="row darkgreyFont">
                             <img src="icons/CompCoding.svg" class="img-fluid col-lg-3 col-md-2 col-sm-2 col-2" alt="Responsive image">
                             <h3 class="col-lg-9 col-md-10 col-sm-10 col-10">Competitive Code
                             
-                            <small class="text-muted"><br><h4>Better Algorithms</h4></small>
+                            <small class="darkcyanFont"><br><h4>Better Algorithms</h4></small>
                         </h3>
                         </div>
                         Coding is today's language of creativity. Everyone deserves a chance to become creators! and not stay as just the consumers of computer sciences.
                     </div>
                 </div>
             </div>
-            </div><br><br><br><br><br><br><br>
-        </div>
+            </div>
+            </div><br><br><br><br>
+        </div><br><br><br>
             
             
             
         <!-- Other skills section -->
         <div class="container">
             <h2 id="OtherSkills"></h2>
-            <h1 class="coolFont whiteFont">Other skills</h1>    
+            <h1 class="coolFont">Other skills</h1>    
             <hr>
             <div class="card-deck">
             <div class="container">
@@ -272,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            </div><br><br><br><br><br><br><br>
+            </div><br><br><br><br>>
         </div>
         
         
@@ -280,9 +329,11 @@
         
         
         <!-- The gallery -->
+        <div class="bgblack">
+        <br><br><br>
         <div class="container">
         <h2 id="Gallery"></h2>
-            <h1 class="coolFont whiteFont">My Gallery</h1>    
+            <h1 class="coolFont">My Gallery</h1>    
             <hr>
             <div class="bd-example">
                   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -340,11 +391,13 @@
                     </a>
                   </div>
             </div>
-        </div><br><br><br><br><br><br><br>
+        </div>
+        <br><br><br>
+        </div>
     <!-- Contacts -->
     <h2 id="Contact"></h2>
-    <div class="jumbotron bgwhite">
-    <h1 class="coolFont">Personal links and Contact Details</h1>
+    <div class="jumbotron bggrey">
+    <h1 class="coolFont darkcyanFont">Personal links and Contact Details</h1>
         <div class="container linkFont">
             <hr class="hr1">
             <div class="row">
@@ -352,12 +405,12 @@
                 
                     <div class="row">
                     
-                        <div class="col-lg-1">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-1">
             
                             <img src="icons/linkedin.png" height="20" width="20">
                             
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-11">
             
                             <a href="https://www.linkedin.com/in/harsh-agrawal-13b397172/">/harsh-agrawal-13b397172</a>
                             
@@ -367,12 +420,12 @@
                     </div>
                     <div class="row">
                     
-                        <div class="col-lg-1">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-1">
             
                             <img src="icons/twitter.png" height="20" width="20">
                             
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-11">
             
                             <a href="https://twitter.com/sneaky___beaver">/sneaky___beaver</a>
                             
@@ -382,12 +435,12 @@
                     </div>
                     <div class="row">
                     
-                        <div class="col-lg-1">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-1">
             
                             <img src="icons/github.svg" height="20" width="20">
                             
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-11">
             
                             <a href="https://github.com/sneaky-beaver">/sneaky-beaver</a>
                             
@@ -397,12 +450,12 @@
                     </div>
                     <div class="row">
                     
-                        <div class="col-lg-1">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-1">
             
                             <img src="icons/instagram.png" height="20" width="20">
                             
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-11">
             
                             <a href="https://www.instagram.com/sneaky___beaver/">/sneaky___beaver</a>
                             
@@ -412,12 +465,12 @@
                     </div>
                     <div class="row">
                     
-                        <div class="col-lg-1">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-1">
             
                             <img src="icons/facebook.svg" height="20" width="20">
                             
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-11">
             
                             <a href="https://www.facebook.com/profile.php?id=100004053384028">/harsh-agrawal</a>
                             
@@ -427,12 +480,12 @@
                     </div>
                     <div class="row">
                     
-                        <div class="col-lg-1">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-1">
             
-                            <img src="icons/location.jpg" height="20" width="20">
+                            <img src="icons/location.png" height="20" width="20">
                             
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-11">
             
                             <a href="https://www.google.com/maps/place/Navi+Mumbai,+Maharashtra/@19.0162992,72.893075,11z/data=!3m1!4b1!4m5!3m4!1s0x3be7b9f0b81f13ad:0x3c12f7681185f869!8m2!3d19.0330488!4d73.0296625">Navi Mumbai, Maharashtra, India</a>
                             
