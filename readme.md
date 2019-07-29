@@ -1,2 +1,2 @@
-![alt text](https://github.com/sneaky-beaver/sneaky-beaver.github.io/website.png)
+![alt text](https://github.com/sneaky-beaver/sneaky-beaver.github.io/blob/master/website.png)
 
